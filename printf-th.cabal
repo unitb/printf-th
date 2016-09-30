@@ -16,7 +16,7 @@ version:             0.1.0.0
 synopsis:            typesafe printf using template haskell
 
 -- A longer description of the package.
--- description:         
+description:         typesafe printf using template haskell
 
 -- The license under which the package is released.
 license:             MIT
@@ -45,6 +45,9 @@ build-type:          Simple
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.10
 
+source-repository head
+  type: git
+  location: https://github.com/literate-unitb/printf-th.git
 
 library
   -- Modules exported by the library.
@@ -63,7 +66,7 @@ library
          -fwarn-incomplete-uni-patterns
          -fwarn-missing-methods
          -fno-ignore-asserts
-         -fwarn-tabs -Werror
+         -fwarn-tabs
          -j8
 
   -- Directories containing source files.
