@@ -47,7 +47,7 @@ cabal-version:       >=1.10
 
 source-repository head
   type: git
-  location: https://github.com/literate-unitb/printf-th.git
+  location: https://github.com/unitb/printf-th.git
 
 library
   -- Modules exported by the library.
